@@ -1,0 +1,23 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional: ignore database dump files or temp
+*.sql
+*.sqlite
+*.tmp
+
+# Optional: IDE/editor folders
+.vscode/
+.idea/
