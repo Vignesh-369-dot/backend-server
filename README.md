@@ -1,26 +1,4 @@
-# backend-server
 
-Step : 1
-
-first of all clone my url in your path then install the need node_modules 
-then you can able to see the project folder , it contain index,route,controller,service,db,.env,packages., 
-create database in your mysql using CREATE DATABASE IF NOT EXISTS userdb;
-then select the specific database using USE userdb;
-create the table to store the data using 
-CREATE TABLE users (
-id INT AUTO_INCREMENT PRIMARY KEY,
-firstName VARCHAR(100),
-lastName VARCHAR(100),
-email VARCHAR(255),
-age INT,
-gender VARCHAR(20),
-city VARCHAR(100));
-try to run the script using npm run dev, once you're connect to the database it shows Server running on port 3000 in terminal
-use get method to fetch the data from url 
-then You can insert dummy users based on dummyjson.com/users.
-
-
-)
 Setup Instructions
   1. Clone the Repository
      Use the following command to clone the project into your local directory:
